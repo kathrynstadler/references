@@ -169,7 +169,7 @@ void BinarySearchTree::printTree() {
 }
 
 // Recursive function to print binary tree
-// It uses inorder traversal
+// uses inorder traversal
 void BinarySearchTree::printTree(BinaryNode* root, Trunk* prev, bool isRight) {
     if (root == NULL) return;
 
